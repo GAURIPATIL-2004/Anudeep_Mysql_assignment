@@ -1,4 +1,4 @@
-# Anudeep_Mysql_assignment
+
 # MySQL Database Basics
 
 This repository includes structured MySQL scripts and exercises based on my learning during the Anudeeo Foundation Course. It serves as a reference and practice ground for database management using SQL.
@@ -16,3 +16,26 @@ Learn the fundamentals of relational databases and SQL through practical scripts
 - **JOINS** (INNER, LEFT, RIGHT)
 - **Subqueries**
 - **Indexes and Keys**
+
+## How to Use
+
+1. Install MySQL Server and a client like **MySQL Workbench** or **phpMyAdmin**.
+2. Open the `.sql` files in your SQL editor.
+3. Execute scripts in order to understand and practice various MySQL features.
+
+## Example
+
+```sql
+CREATE DATABASE student_db;
+
+USE student_db;
+
+CREATE TABLE students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    age INT,
+    grade VARCHAR(10)
+);
+
+INSERT INTO students (name, age, grade)
+VALUES ('Alice', 18, 'A');
