@@ -16,7 +16,7 @@ Welcome to the **MySQL Database Basics** repository! This is a collection of SQL
 
 Here’s a basic **MySQL query** example that demonstrates creating a database and inserting data:
 
-![MySQL Example]()
+![MySQL Example](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTI2OG1wOGZ0c2FodG83a3NhNXY5OXZmNGQ1M3FzZWlrNHBzNXplNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vISmwpBJUNYzukTnVx/giphy.gif)
 
 ```sql
 CREATE DATABASE student_db;
